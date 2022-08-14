@@ -1,4 +1,8 @@
-from dev.math import add_num, sub_num
+from __future__ import annotations
+
+from dev.math import add_num
+from dev.math import sub_num
+
 
 def func(a, b):
     temp = add_num(a, b)
@@ -6,8 +10,4 @@ def func(a, b):
     print('add_num value should be', temp)
     print('sub_num value should be', temp1)
     return (temp + temp1)
-    # return (temp + 2) 
-    
-    
-    
-
+    # return (temp + 2)
