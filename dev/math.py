@@ -1,24 +1,48 @@
-from decimal import DivisionByZero
-# import numpy as np
-# import pandas as pd
+def add_num(a, b):
+    return (a + b)
 
-class Maths:
+def sub_num(a, b):
+    return (a - b)
 
-    def __init__(self):
-        pass
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# class Maths:
+
+#     def __init__(self):
+#         pass
     
-    def add_num(self, a, b):
-        return (a + b)
+#     def add_num(self, a, b):
+#         return (a + b)
     
-    def divide(self, a, b):
-        if a == 0:
-            raise ZeroDivisionError("denominator value is zero can not divide")
-        else:
-            return int(b/a)
+#     def divide(self, a, b):
+#         if a == 0:
+#             raise ZeroDivisionError("denominator value is zero can not divide")
+#         else:
+#             return int(b/a)
         
-    def data(self, a):
-        if a < 1:
-            raise ValueError("less the 1 Error")
+#     def data(self, a):
+#         if a < 1:
+#             raise ValueError("less the 1 Error")
+    
         
 
 # if __name__ == "__main__":
